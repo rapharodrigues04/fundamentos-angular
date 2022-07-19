@@ -9,6 +9,7 @@ import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.component';
 import { TwoWayDateBindComponent } from './two-way-date-bind/two-way-date-bind.component';
 import { FormsModule } from '@angular/forms';
+import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     SegundoComponenteComponent,
     MultiplicaPorPipe,
     PipeCustomizadoComponent,
-    TwoWayDateBindComponent
+    TwoWayDateBindComponent,
+    RenderizandoListasComponent
   ],
   imports: [
     BrowserModule,
