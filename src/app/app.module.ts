@@ -10,6 +10,7 @@ import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.co
 import { TwoWayDateBindComponent } from './two-way-date-bind/two-way-date-bind.component';
 import { FormsModule } from '@angular/forms';
 import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { RenderizandoListasComponent } from './renderizando-listas/renderizando-
     MultiplicaPorPipe,
     PipeCustomizadoComponent,
     TwoWayDateBindComponent,
-    RenderizandoListasComponent
+    RenderizandoListasComponent,
+    ComponentePersonalizadoComponent
   ],
   imports: [
     BrowserModule,
