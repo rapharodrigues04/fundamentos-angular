@@ -9,5 +9,9 @@ export class SegundoComponenteComponent {
 
   nome = "João";
   dataNascimento = "1995-01-01";
+  urlImagens = "/assets/seuMadruga.jpg";
 
+  mostrarDataNascimento(){
+    alert(`A data de nascimento do João é: ${this.dataNascimento}`)
+  }
 }
