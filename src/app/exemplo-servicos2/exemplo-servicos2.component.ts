@@ -11,8 +11,9 @@ export class ExemploServicos2Component {
   constructor(public logger: LoggerService){}
 
   descricao = "";
+
   adicionarProduto(){
-    this.logger.logar(`O produto com o nome ${this.descricao} foi adicionado.`)
+    this.logger.logar(`O produto com a descrição ${this.descricao} foi adicionado.`)
   }
 
 }
